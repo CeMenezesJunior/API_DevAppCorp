@@ -13,7 +13,7 @@ import javax.persistence.ManyToOne;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
-public class Artigo {
+public class Artigo { 
     @Id
     @GeneratedValue(generator = "increment")
     @GenericGenerator(name="increment",strategy="increment")
