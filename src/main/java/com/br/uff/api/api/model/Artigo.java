@@ -10,9 +10,13 @@ import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 
+import org.hibernate.annotations.GenericGenerator;
+
 @Entity
-public class Artigo {
-    @Id@GeneratedValue(strategy = GenerationType.AUTO)
+public class Artigo { 
+    @Id
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name="increment",strategy="increment")
     private Long id;
     private int ordem;
     @Column(length = 2)

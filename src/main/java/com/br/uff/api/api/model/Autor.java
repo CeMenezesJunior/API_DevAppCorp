@@ -10,9 +10,13 @@ import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 
+import org.hibernate.annotations.GenericGenerator;
+
 @Entity
 public class Autor {
-  @Id@GeneratedValue(strategy = GenerationType.AUTO)
+  @Id
+  @GeneratedValue(generator = "increment")
+  @GenericGenerator(name="increment",strategy="increment")
   private Long id;
   private int ordem;
   private String email;
