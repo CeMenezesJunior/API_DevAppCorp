@@ -1,0 +1,13 @@
+com\br\uff\api\api\ApiApplication.class
+com\br\uff\api\api\model\Artigo.class
+com\br\uff\api\api\model\Volume.class
+com\br\uff\api\api\repository\VolumeRepository.class
+com\br\uff\api\api\controler\ArtigoController.class
+com\br\uff\api\api\controler\ClienteController.class
+com\br\uff\api\api\repository\ClienteRepository.class
+com\br\uff\api\api\repository\AutorRepository.class
+com\br\uff\api\api\model\Autor.class
+com\br\uff\api\api\model\Cliente.class
+com\br\uff\api\api\controler\VolumeController.class
+com\br\uff\api\api\controler\AutorController.class
+com\br\uff\api\api\repository\ArtigoRepository.class

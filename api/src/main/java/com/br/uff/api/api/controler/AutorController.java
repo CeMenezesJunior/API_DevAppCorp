@@ -12,11 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.br.uff.api.api.model.Autor;
 import com.br.uff.api.api.repository.AutorRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 @RequestMapping("/autor")
 public class AutorController {
 	
+        @Autowired
 	private AutorRepository autorRepository;
 	
 	@GetMapping

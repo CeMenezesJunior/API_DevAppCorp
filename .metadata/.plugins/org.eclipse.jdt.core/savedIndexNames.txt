@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\edu_j\OneDrive\Área de Trabalho\API_DevAppCorp\.metadata\.plugins\org.eclipse.jdt.core
+4074466843.index
